@@ -1,0 +1,102 @@
+<style>
+  body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+  }
+
+  .converter {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(214, 10, 201, 0.1);
+    text-align: center;
+  }
+
+  input, select, button {
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%;
+  }
+
+  button {
+    cursor: pointer;
+  }
+</style>
+
+:root {
+--main-color: #6366f1; 
+--accent-color: #22d3ee; 
+--bg-color: #0f172a; 
+--card-color: #ffffff;
+}
+
+body {
+height: 100vh;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(135deg, #0f172a, #1e293b);
+font-family: Arial, sans-serif;
+}
+
+.converter {
+background: var(--card-color);
+width: 280px;
+padding: 25px;
+text-align: center;
+border-radius: 12px;
+border-top: 14px solid var(--main-color);
+border-bottom: 14px solid var(--accent-color);
+box-shadow: 0 15px 30px rgb(255, 255, 255);
+}
+
+input, select {
+width: 100%;
+margin: 8px 0;
+padding: 10px;
+border-radius: 8px;
+border: 1px solid #c7d2fe;
+}
+
+input:focus, select:focus {
+outline: none;
+border-color: var(--main-color);
+}
+
+button {
+width: 100%;
+margin-top: 12px;
+padding: 10px;
+background: linear-gradient(135deg, var(--main-color), var(--accent-color));
+color: white;
+border: none;
+border-radius: 8px;
+font-weight: bold;
+cursor: pointer;
+}
+
+
+#resultat {
+margin-top: 15px;
+font-size: 1.2em;
+font-weight: bold;
+color: white;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background: linear-gradient(135deg, #6366f1, #22d3ee);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}

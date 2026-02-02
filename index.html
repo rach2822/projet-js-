@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<script src="script.js"></script>  
+
+<div class="converter">
+
+  <input type="number" id="montant" placeholder="Montant à convertir">
+
+  <select id="from">
+    <option value="EUR">EUR</option>
+    <option value="USD">USD</option>
+    <option value="GBP">GBP</option>
+    <option value="JPY">JPY</option>
+
+
+  </select>
+
+  <select id="to">
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="GBP">GBP</option>
+    <option value="JPY">JPY</option>
     
+  </select>
+
+  <button onclick="convertir()">Convertir</button>
+  <button type="button" onclick="inverserDevises()">Inverser les devises</button>
+
+  <p id="resultat"></p>
+
+</div>
+
 </body>
 </html>
